@@ -933,7 +933,17 @@ The doll was practice. This was <em>proof</em>.<br>
 Take me home, love. I'm — through.</p>
 <hr>
 <h2 id="scene-7">SCENE 7 — FINALE (THE REPAIR, THE CRUMBLING, THE PORTAL)</h2>
-<p><a class="play-btn" href="https://suno.com/s/5nTrqo5QNPWg1ACp" target="_blank" rel="noopener">♪ Hear the Finale on Suno — The Mending</a></p>
+<p>♪ <strong>The Mending</strong> — the finale, in full (2:21), right here. No app, no sign-in:</p>
+<p><audio id="mendingAudio" controls preload="metadata" src="the-mending.mp3" style="width:100%;max-width:520px;display:block;"></audio></p>
+<p><a class="play-btn secondary" href="the-mending.mp3">Open the MP3</a></p>
+<script>
+(function(){
+  var m=document.getElementById('mendingAudio'); if(!m) return;
+  var others=[document.getElementById('ariaAudio'),document.getElementById('scoreAudio')];
+  m.addEventListener('play',function(){ others.forEach(function(o){ if(o && !o.paused) o.pause(); }); });
+  others.forEach(function(o){ if(o) o.addEventListener('play',function(){ if(!m.paused) m.pause(); }); });
+})();
+</script>
 <p><em>After the kiss. POPPET lifts her — HER, her own body, empty of song for the moment — and sets the piece she died holding into the place it was always meant to go. The girl who carried her home brings her home: Poppet's hands do the mending, quick and certain and gentle. He kneels with his own hands beneath hers — lending steadiness, not direction; this repair is not his to make. Halfway through a verse, her humming catches, smooths, comes clean — from her own throat, in her own body, the essence home again.</em></p>
 <p class="stage"><em>(The key that winds them is a girl. Like the key that spins on the Clockwork Girl&rsquo;s back — big, ornate, proud — Poppet is the key, metaphorically: she is what turns the lovers into each other. The gift they are given, a life together in a borrowed body, comes through her hands. She winds them, and they go.)</em></p>
 <p><strong>HER:</strong><br>
